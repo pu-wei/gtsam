@@ -1,0 +1,227 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_WSUGGEST_OVERRIDE failed with the following output:
+Change Dir: /Users/wpu/Documents/gtsam/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_664e1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_664e1.dir/build.make CMakeFiles/cmTC_664e1.dir/build
+Building CXX object CMakeFiles/cmTC_664e1.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_HAS_WSUGGEST_OVERRIDE  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk   -Wsuggest-override -o CMakeFiles/cmTC_664e1.dir/src.cxx.o -c /Users/wpu/Documents/gtsam/cmake/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wsuggest-override'; did you mean '-Wshift-overflow'? [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_664e1
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_664e1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_664e1.dir/src.cxx.o -o cmTC_664e1 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_WMISSING_OVERRIDE failed with the following output:
+Change Dir: /Users/wpu/Documents/gtsam/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a6f21/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a6f21.dir/build.make CMakeFiles/cmTC_a6f21.dir/build
+Building CXX object CMakeFiles/cmTC_a6f21.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_HAS_WMISSING_OVERRIDE  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk   -Wmissing -o CMakeFiles/cmTC_a6f21.dir/src.cxx.o -c /Users/wpu/Documents/gtsam/cmake/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wmissing'; did you mean '-Wmain'? [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_a6f21
+/usr/local/Cellar/cmake/3.19.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6f21.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a6f21.dir/src.cxx.o -o cmTC_a6f21 
+
+
+Source file was:
+int main() { return 0; }
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/wpu/Documents/gtsam/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5b239/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5b239.dir/build.make CMakeFiles/cmTC_5b239.dir/build
+Building C object CMakeFiles/cmTC_5b239.dir/OpenMPTryFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fopenmp=libomp -v -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_5b239.dir/OpenMPTryFlag.c.o -c /Users/wpu/Documents/gtsam/cmake/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 12.0.0 (clang-1200.0.32.29)
+Target: x86_64-apple-darwin20.3.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported argument 'libomp' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_5b239.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_5b239/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/wpu/Documents/gtsam/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_22a9d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_22a9d.dir/build.make CMakeFiles/cmTC_22a9d.dir/build
+Building C object CMakeFiles/cmTC_22a9d.dir/OpenMPTryFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fopenmp=libiomp5 -v -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_22a9d.dir/OpenMPTryFlag.c.o -c /Users/wpu/Documents/gtsam/cmake/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 12.0.0 (clang-1200.0.32.29)
+Target: x86_64-apple-darwin20.3.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported argument 'libiomp5' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_22a9d.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_22a9d/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/wpu/Documents/gtsam/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_df7bb/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_df7bb.dir/build.make CMakeFiles/cmTC_df7bb.dir/build
+Building C object CMakeFiles/cmTC_df7bb.dir/OpenMPTryFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fopenmp -v -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_df7bb.dir/OpenMPTryFlag.c.o -c /Users/wpu/Documents/gtsam/cmake/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 12.0.0 (clang-1200.0.32.29)
+Target: x86_64-apple-darwin20.3.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_df7bb.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_df7bb/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/wpu/Documents/gtsam/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_808d5/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_808d5.dir/build.make CMakeFiles/cmTC_808d5.dir/build
+Building C object CMakeFiles/cmTC_808d5.dir/OpenMPTryFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Xclang -fopenmp -v -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_808d5.dir/OpenMPTryFlag.c.o -c /Users/wpu/Documents/gtsam/cmake/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Apple clang version 12.0.0 (clang-1200.0.32.29)
+Target: x86_64-apple-darwin20.3.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx11.0.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 609.8 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -I/opt/intel/oneapi/tbb/latest/env/../include -I/opt/intel/oneapi/mkl/latest/include -I/opt/intel/oneapi/ippcp/2021.2.0/include -I/opt/intel/oneapi/ipp/2021.2.0/include -I/opt/intel/oneapi/dnnl/2021.2.0/cpu_iomp/lib -I/opt/intel/oneapi/dev-utilities/2021.2.0/include -I/opt/intel/oneapi/dal/2021.2.0/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -fdebug-compilation-dir /Users/wpu/Documents/gtsam/cmake/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=macosx-11.0.0 -fmax-type-align=16 -fdiagnostics-show-option -fopenmp -o CMakeFiles/cmTC_808d5.dir/OpenMPTryFlag.c.o -x c /Users/wpu/Documents/gtsam/cmake/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 12.0.0 (clang-1200.0.32.29) default target x86_64-apple-darwin20.3.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/intel/oneapi/tbb/latest/env/../include
+ /opt/intel/oneapi/mkl/latest/include
+ /opt/intel/oneapi/ippcp/2021.2.0/include
+ /opt/intel/oneapi/ipp/2021.2.0/include
+ /opt/intel/oneapi/dnnl/2021.2.0/cpu_iomp/lib
+ /opt/intel/oneapi/dev-utilities/2021.2.0/include
+ /opt/intel/oneapi/dal/2021.2.0/include
+ /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+/Users/wpu/Documents/gtsam/cmake/CMakeFiles/FindOpenMP/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_808d5.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_808d5/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /Users/wpu/Documents/gtsam/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3ecaa/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3ecaa.dir/build.make CMakeFiles/cmTC_3ecaa.dir/build
+Building CXX object CMakeFiles/cmTC_3ecaa.dir/OpenMPTryFlag.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -fopenmp=libomp -v -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_3ecaa.dir/OpenMPTryFlag.cpp.o -c /Users/wpu/Documents/gtsam/cmake/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 12.0.0 (clang-1200.0.32.29)
+Target: x86_64-apple-darwin20.3.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1"
+clang: error: unsupported argument 'libomp' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_3ecaa.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_3ecaa/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /Users/wpu/Documents/gtsam/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_735c3/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_735c3.dir/build.make CMakeFiles/cmTC_735c3.dir/build
+Building CXX object CMakeFiles/cmTC_735c3.dir/OpenMPTryFlag.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -fopenmp=libiomp5 -v -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_735c3.dir/OpenMPTryFlag.cpp.o -c /Users/wpu/Documents/gtsam/cmake/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 12.0.0 (clang-1200.0.32.29)
+Target: x86_64-apple-darwin20.3.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1"
+clang: error: unsupported argument 'libiomp5' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_735c3.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_735c3/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /Users/wpu/Documents/gtsam/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a7199/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a7199.dir/build.make CMakeFiles/cmTC_a7199.dir/build
+Building CXX object CMakeFiles/cmTC_a7199.dir/OpenMPTryFlag.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -fopenmp -v -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_a7199.dir/OpenMPTryFlag.cpp.o -c /Users/wpu/Documents/gtsam/cmake/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 12.0.0 (clang-1200.0.32.29)
+Target: x86_64-apple-darwin20.3.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1"
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_a7199.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_a7199/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /Users/wpu/Documents/gtsam/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8ed23/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8ed23.dir/build.make CMakeFiles/cmTC_8ed23.dir/build
+Building CXX object CMakeFiles/cmTC_8ed23.dir/OpenMPTryFlag.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -Xclang -fopenmp -v -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -o CMakeFiles/cmTC_8ed23.dir/OpenMPTryFlag.cpp.o -c /Users/wpu/Documents/gtsam/cmake/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Apple clang version 12.0.0 (clang-1200.0.32.29)
+Target: x86_64-apple-darwin20.3.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1"
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx11.0.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 609.8 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -I/opt/intel/oneapi/tbb/latest/env/../include -I/opt/intel/oneapi/mkl/latest/include -I/opt/intel/oneapi/ippcp/2021.2.0/include -I/opt/intel/oneapi/ipp/2021.2.0/include -I/opt/intel/oneapi/dnnl/2021.2.0/cpu_iomp/lib -I/opt/intel/oneapi/dev-utilities/2021.2.0/include -I/opt/intel/oneapi/dal/2021.2.0/include -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -fdeprecated-macro -fdebug-compilation-dir /Users/wpu/Documents/gtsam/cmake/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=macosx-11.0.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -fopenmp -o CMakeFiles/cmTC_8ed23.dir/OpenMPTryFlag.cpp.o -x c++ /Users/wpu/Documents/gtsam/cmake/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 12.0.0 (clang-1200.0.32.29) default target x86_64-apple-darwin20.3.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/intel/oneapi/tbb/latest/env/../include
+ /opt/intel/oneapi/mkl/latest/include
+ /opt/intel/oneapi/ippcp/2021.2.0/include
+ /opt/intel/oneapi/ipp/2021.2.0/include
+ /opt/intel/oneapi/dnnl/2021.2.0/cpu_iomp/lib
+ /opt/intel/oneapi/dev-utilities/2021.2.0/include
+ /opt/intel/oneapi/dal/2021.2.0/include
+ /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1
+ /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+/Users/wpu/Documents/gtsam/cmake/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_8ed23.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_8ed23/fast] Error 2
+
+
+
